@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </com.google.android.material.appbar.AppBarLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstnameid"
+        android:hint="@string/enter_first_name"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textColor="@color/colorAccent"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/enter_last_name"
+        android:textAlignment="center"
+        android:id="@+id/lastnameid"
+        android:textSize="23sp"
+        android:textColor="@color/colorAccent"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="@string/create_user"
+        android:layout_margin="115dp"
+        android:background="@color/colorAccent"
+        />
+
+</LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/cutoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:layout_anchor="@+id/appBarLayout"
+        app:layout_anchorGravity="center"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:navigationIcon="@mipmap/backicon"
+        app:titleTextColor="#FFFFFF" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

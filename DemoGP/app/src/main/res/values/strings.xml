@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DemoGP</string>
+    <string name="add_user">add user</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="create_user">Create user</string>
+</resources>
