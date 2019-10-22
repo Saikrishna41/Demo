@@ -18,5 +18,6 @@ The App consist of two activities.
 
 1. Validated Edit text in create user 
 2.  add user and Navigation is done in the Toolbar icons (add user and back arrow respectively)
+3. Choose App ui color and text color (colorPrimary, colorAccent)  from the company logo
 
 
