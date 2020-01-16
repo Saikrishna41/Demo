@@ -1,4 +1,4 @@
-# Interview App
+#  App using Retorifit and Glide
 The App consist of two activities.
 1. Base Activity - To list the user's first and last name and picture from api using retrofit
 2. Create User Activity - To submit firstname and lastname of user using retrofit
